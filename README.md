@@ -3,7 +3,7 @@
 [Original Instructions](https://github.com/microsoft/vscode-dev-containers/tree/main/containers/php-mariadb)
 
 ```
-mariadb -h localhost -P 3306  --protocol=tcp -u root --password=mariadb -D mariadb
+mariadb --skip-ssl -h localhost -P 3306  --protocol=tcp -u root --password=mariadb -D mariadb
 ```
 
 ```
